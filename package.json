@@ -4,19 +4,21 @@
   "description": "validator-credit-card",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brubriele/lib-valid-credit-card.git"
   },
-  "author": "",
+  "author": "Bruna Gabriele de Paula",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brubriele/lib-valid-credit-card/issues"
   },
   "homepage": "https://github.com/brubriele/lib-valid-credit-card#readme",
   "dependencies": {
-    "eslint": "^5.16.0"
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
   }
 }
