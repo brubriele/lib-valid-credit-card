@@ -12,5 +12,5 @@ $  npm install lib-valid-credit-card
 ```js
 > const cardValidator = require("lib-valid-credit-card");
 > console.log(cardValidator(6062822004739263))
-> // returns "Cartão Válido"
+> // returns "true"
 ```
