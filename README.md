@@ -2,9 +2,13 @@
 
 **A biblioteca tem como finalidade validar o número do cartão de crédito (usando o algoritmo de Luhn)**. Na versão inicial retorna true ou false como resultado da validação.
 
-A biblioteca poderá ser testada através da função cardValidator().
+A biblioteca poderá ser testada através da função cardValidator()
 
 # Como instalar
 $  npm install lib-valid-credit-card
 
 # Como utilizar
+
+> const cardValidator = require("chayote-lib");
+> console.log(cardValidator(6062822004739263))
+> // returns "Cartão Válido"
