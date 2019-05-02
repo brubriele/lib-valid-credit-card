@@ -1,6 +1,6 @@
-let chai = require("chai");
-let expect = chai.expect;
-let cardValidator = require("../lib/index.js")
+const chai = require("chai");
+const expect = chai.expect;
+const cardValidator = require("../lib/index.js")
 
 describe('Validador de Cartão de Crédito', () => {
     it('Deve retornar true', () => {
