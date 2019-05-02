@@ -11,5 +11,6 @@ module.exports = () => {
         type: 'node'
       },
       debug: false
+      
     };
   };
