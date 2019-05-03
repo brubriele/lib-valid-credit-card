@@ -4,7 +4,8 @@
   "description": "validator-credit-card",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha", 
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
