@@ -28,7 +28,7 @@ describe('Validador de Cartão de Crédito', () => {
         expect(cardValidator(3569676135946592)).to.equal("true")
     });
     it('Deve retornar true', () => {
-        expect(cardValidator(00000000000000000000)).to.equal("false")
+        expect(cardValidator(0000000000000000)).to.equal("false")
     });
 })
    
