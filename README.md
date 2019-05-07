@@ -1,4 +1,4 @@
-# Validaddor de Cartão de Crédito  v.1.0.4
+# Validaddor de Cartão de Crédito  v.1.0.5
 
 **A biblioteca tem como finalidade validar o número do cartão de crédito (usando o algoritmo de Luhn)**. Na versão inicial retorna true ou false como resultado da validação.
 
